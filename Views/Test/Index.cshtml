@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var c = (Customer)ViewData["Customer"];
+}
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        Test page - @ViewData["Title"] <br/>
+        @c.No : @c.Name
+        <br/>
+        
+    </body>
+</html>
